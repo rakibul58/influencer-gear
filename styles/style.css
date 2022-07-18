@@ -8,4 +8,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+
+/*----------------------------------------------------- 
+                    Header Styles
+-------------------------------------------------------*/
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 13vh;
+    align-items: center;
+}
+/*--------------------- Right side of navs style-------------------- */
+.right-nav{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) 24px 24px;
+    justify-content: end;
+    column-gap: 2vw;
+}
+
+.right-nav p a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.right-nav p a i{
+    font-size: 24px;
 }
