@@ -81,7 +81,7 @@
     margin-bottom: 2.5vh;
 }
 
-.section-1-details .btn{
+.btn{
     
     text-decoration: none;
     background-color: #E02C6D;
@@ -144,7 +144,6 @@
 .card-title{
     margin-top: 16px;
     height: 40px;
-    max-width: 221px;
     font-weight: 500;
     font-size: 28px;
     line-height: 40px;
@@ -195,5 +194,55 @@
     background-color: #ffffff;
 }
 /*--------- Section-3 :end --------------*/
+
+/*--------- Section-4 :start --------------*/
+.section-4{
+   
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 270px;
+    margin: 0 auto;
+}
+
+.banner{
+        width: 45%;
+}
+.banner-info{
+        width: 55%;
+}
+
+.banner image{
+    width: 100%;
+}
+.banner-info h2{
+    width: 610px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826
+}
+.banner-info p{
+    width: 501px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin: 16px 0;
+    
+}
+
+.btn-2{
+    text-decoration: none;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #ffffff;
+}
+
+/*--------- Section-4 :end --------------*/
 
 
