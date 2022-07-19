@@ -19,17 +19,22 @@
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 8.8vw;
+    margin-right: 8.8vw;
     margin-top: 13vh;
     align-items: center;
 }
 /*--------------------- Right side of navs style-------------------- */
 .right-nav{
     display: grid;
-    grid-template-columns: repeat(4,1fr) 24px 24px;
-    justify-content: end;
+    grid-template-columns: repeat(4,1fr) 1.75vw 1.75vw;
     column-gap: 2vw;
+}
+
+.right-nav h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
 }
 
 .right-nav p a{
@@ -42,3 +47,52 @@
 .right-nav p a i{
     font-size: 24px;
 }
+
+/*-----------------------------------------
+             Main section 
+-------------------------------------------*/
+
+/*--------- Section-1 :start --------------*/
+.section-1{
+    margin-top: 7.6vh;
+    display: flex;
+    align-items: center;
+    margin-left: 8.8vw;
+    margin-right: 8.8vw;
+}
+.section-1 .section-1-details{
+    margin-right: 9.7vw;
+}
+.section-1-details h1{
+    width: 582px;
+    height: 133px;
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.section-1-details p{
+    margin-top: 2.5vh;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    width: 36.9vw;
+    height: 9.2vh;
+    margin-bottom: 2.45vh;
+}
+
+.section-1-details .btn{
+    
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 41px;
+}
+
+.fa-arrow-right{
+    margin-left: 0.586vw;
+    background-color: #E02C6D;
+}
+/*--------- Section-1 :end --------------*/
