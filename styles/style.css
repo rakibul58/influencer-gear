@@ -69,6 +69,7 @@
     font-weight: 700;
     font-size: 52px;
     color: #3A3A3A;
+    line-height: 60px;
 }
 .section-1-details p{
     margin-top: 2.5vh;
@@ -77,7 +78,7 @@
     color: #3A3A3A;
     width: 36.9vw;
     height: 9.2vh;
-    margin-bottom: 2.45vh;
+    margin-bottom: 2.5vh;
 }
 
 .section-1-details .btn{
@@ -96,3 +97,17 @@
     background-color: #E02C6D;
 }
 /*--------- Section-1 :end --------------*/
+
+/*--------- Section-2 :start --------------*/
+
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 165px;
+    padding: 35px 62px;
+    box-shadow: 0 2px 0px rgb(211, 204, 252),
+                0 -2px 0px rgb(211, 204, 252);
+}
+
+/*--------- Section-2 :end --------------*/
